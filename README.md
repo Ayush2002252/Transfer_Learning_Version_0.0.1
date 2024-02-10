@@ -13,3 +13,5 @@ ls | cat -n | while read n f; do mv "$f" "$n.jpg"; done
 
 ## JSON-Generation
 python python_json img/ > json_ml5data.json
+
+## The input file in script .js have an error in path please make necessary changes
